@@ -1,6 +1,8 @@
 # redraw_img
 
-> This is a program that redraws pictures. The program will read all files in `img_dir_path` in `config.ini` and then perform style conversion
+> This is a program that redraws pictures. 
+> 
+> The program will read all files in `img_dir_path` in `config.ini` and then perform style conversion.
 
 ## Installation
 
@@ -29,8 +31,10 @@ See  `config.ini`
 | Argument              | Type  | Description                      | Example               |
 | --------------------- | ----- | -------------------------------- | --------------------- |
 | `url`                 | str   | STable Diffusion API Url address | http://127.0.0.1:7860 |
-| `img_dir_path`        | str   | Image Dir Path                   | E:\\temp              |
+| `img_dir_path`        | str   | Image Dir Path                   | E:\temp               |
 | `sd_model_checkpoint` | str   | Model Name                       | v1-5-pruned-emaonly   |
+| `prompt`              | str   | prompt                           |                       |
+| `negative_prompt`     | str   | negative prompt                  |                       |
 | `steps`               | int   | Step count                       | 20                    |
 | `width`               | int   | Image width                      | 512                   |
 | `height`              | int   | Image height                     | 512                   |
